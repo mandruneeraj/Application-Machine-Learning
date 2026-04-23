@@ -1,0 +1,17 @@
+# SIMBA - Bone Age Assessment
+# Install with: pip install -r requirements.txt
+#
+# For GPU support, install PyTorch with CUDA from https://pytorch.org/get-started/locally/
+# Example (CUDA 11.8):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+# Example (CPU only):
+#   pip install torch torchvision
+
+torch>=1.13.0
+torchvision>=0.14.0
+pandas>=1.3.0
+scipy>=1.7.0
+tqdm>=4.42.0
+opencv-python>=4.5.0
+Pillow>=8.0.0
+numpy>=1.21.0
